@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odiasong</title>
+    <style>
+             
+nav{
+    list-style-type: none;
+    align-items: center;
+    
+}
+nav ul{
+    background-color: rgb(119, 197, 100);
+    display: flex;
+    height: 70px;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+}
+
+.renal img{
+    width: 44px;
+    border-radius: 55px;
+
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.renal{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+#hat{
+            text-decoration: none;
+            color: white;
+        }
+
+
+
+
+
+        body{
+            background-image: url(4bdd2a58.jpeg);
+            background-position:auto;
+            background-size: cover;
+    
+            
+        }
+        *{
+            margin:0;
+            padding:0 ;
+        }
+        .hindisong{
+            margin: 70px  200px;
+            color: white;
+
+        }
+        .hindi{
+            height: 45px;
+            width: 25%;
+            background-color: white;
+            color: black;
+            margin: 22px 0;
+            display: flex;
+            border-radius: 30px;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .hindi img{
+            width:  30px;
+            border-radius: 10px;
+            margin:0 2px;
+            
+            
+        }
+        .bottom{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            bottom: 0 ;
+            position: sticky;
+            flex-direction: column;
+    
+        }
+        #myprogressbar{
+            width: 80vw;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            cursor: pointer;
+
+        }  
+        .icon{
+            cursor: pointer;
+        }
+       .playbotton{
+        cursor: pointer;
+       }
+        
+       
+          </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="renal"><img src="IMG_20201222_172105.jpg" alt="my fav 5">  </li>
+            TOP FIVE
+            <li><a id="hat" href="index.html"> home </a></li>
+            <li>about</li>
+        </ul>
+     </nav>
+
+
+
+
+    <div class="hindisong">
+    <h1> HERE IS YOUR HINDI FAV FIVE :-</h1>
+    <div class="hindi">
+        <img src="IMG_20201229_191158.jpg" alt="2">
+        <span class="songname">PREM HELARE ABE ABE</span>
+        <span class="playbotton"><i id="0" class="far songitemplay fa-play-circle"></i></span>
+    </div>
+    <div class="hindi">
+        <img src="IMG_20201229_191158.jpg" alt="2">
+        <span  class="songname">ANAMIKA NAYIKA SE</span>
+        <span class="playbotton"><i id="1" class="far songitemplay  fa-play-circle"></i></span>
+    </div>
+    <div class="hindi">
+        <img src="IMG_20201229_191158.jpg" alt="2">
+        <span  class="songname">PAGALA ATE AAGARU</span>
+        <span class="playbotton" > <i id="2" class="far songitemplay fa-play-circle"></i></span>
+    </div>
+    <div class="hindi">
+        <img src="IMG_20201229_191158.jpg" alt="2">
+        <span  class="songname">LUBH LUBANI CHEHRA</span>
+        <span class="playbotton"><i id="3" class="far  songitemplay fa-play-circle"></i></span>
+    </div>
+    <div class="hindi">
+        <img src="IMG_20201229_191158.jpg" alt="2">
+        <span  class="songname">GUA GHIA GUA SONG</span>
+        <span class="playbotton"><i id="4" class="far songitemplay fa-play-circle"></i></span>
+    </div>
+    <div class="bottom" >
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icon">
+            <i class="fas fa-3x fa-step-backward"  id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-3x fa-step-forward"  id="next"></i>
+            
+        </div>
+     </div>
+  
+</div>
+    
+   
+
+<script src="odia.js"></script>
+<script src="https://kit.fontawesome.com/41ff499b78.js" crossorigin="anonymous"></script>
+</body>
+</html>

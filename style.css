@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(234, 148, 205);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    list-style-type: none;
+    align-items: center;
+    
+}
+nav ul{
+    background-color: rgb(119, 197, 100);
+    display: flex;
+    height: 70px;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+}
+.renal img{
+    width: 44px;
+    border-radius: 55px;
+
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.renal{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.renal1{
+    height: 72vh;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    background-image: url(images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90% ;
+    margin: 23px auto;
+    padding: 25px ;
+    display: flex;
+    
+    
+}
+.renal2{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    color: white;
+    text-align:center;
+    font-size: xx-large;
+    
+    
+}
+#hindi{
+    position:relative;
+    top: 150px;
+    right: 250px;
+    
+   
+}
+
+#english{
+    position: relative;
+    top:150px ;
+    right: 200px;
+   
+}
+#south{
+    position: relative;
+    top:150px ;
+    right: 20px;
+   
+}
+#odia{
+    position: relative;
+    top:150px ;
+    left : 30px;
+   
+    
+}
+#hindi img {
+    border-radius: 29px;
+    
+}
+#english img{
+    height: 224px;
+    width: 225px;
+    border-radius: 29px;
+}
+#odia img{
+    height: 224px;
+    width: 225px;
+    border-radius: 29px;
+}
+#south img{
+    border-radius: 29px;
+}
